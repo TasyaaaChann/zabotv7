@@ -175,7 +175,7 @@ export async function handler(chatUpdate) {
             } else
                 global.db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 10,
+                    limit: 95,
                     lastclaim: 0,
                     registered: false,
                     name: m.name,
@@ -185,7 +185,7 @@ export async function handler(chatUpdate) {
                     afkReason: '',
                     banned: false,
                     warn: 0,
-                    level: 0,
+                    level: 99,
                     role: 'Beginner',
                     autolevelup: true,
 
